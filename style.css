@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-wrapper {
+}
+.nav {
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.nav-logo {
+    width: 188px;
+    height: 60px;
+}
+.nav-search {
+    margin-left: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.311);
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 300px;
+    padding-left: 30px;
+    margin-right: 30px;
+    font-size: 19px;
+}
+.nav-pages {
+    display: flex;
+    list-style: none;
+}
+.nav-pages-item {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 900;
+    margin-right: 40px;
+}
+.nav-pages-item-element {
+}
+.nav-language {
+    display: flex;
+}
+.nav-language-icon {
+}
+.nav-language-line {
+    width: 1px;
+    background:rgba(0, 0, 0, 0.311);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-language-currency {
+    font-weight: 900;
+    margin-right: 20px;
+}
+.nav-signIn {
+    background: black;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    border-color: transparent;
+}
+/* header */
+.header{
+    background: url(/hotel-hero-default-4.jpg) no-repeat center/cover;
+    height: 600px;
+}
+.header-title{
+    text-align: center;
+    margin: 5% auto 5% auto;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+.header {
+}
+.container-header {
+}
+.header-title {
+}
+.header-input {
+    display: flex;
+    border: 1px solid white;
+    height: 50px;
+    width: 45%;
+    margin: 0 auto; 
+    border-radius: 25px;
+    background: white;
+    padding: 8px;
+}
+.header-input-input {
+    border: none;
+    padding: 5px;
+    letter-spacing: 0.5px;
+}
+.date {
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    border-radius: 25px;
+    padding: 6px;
+    margin-left: 40px;
+}
+.button-date {
+    border: none;
+    background: white;
+}
+.button-date-span {
+    display: flex;
+}
+.button-date-span-span {
+    font-weight: 700;
+}
+.div-rooms {
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    border-radius: 25px;
+    padding: 6px;
+    margin-left: 40px;
+}
+.div-button-rooms {
+    display: flex;
+    border: none;
+    background: white;
+}
+.number{
+    font-weight: 700;
+}
+.rooms-item {
+}
+.people-item {
+}
+.search {
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    border-radius: 25px;
+    padding: 6px;
+    margin-left: 40px;
+    border: none;
+    background: #34e0a1;
+    font-weight: 700;
+    padding: 5px;
+}
